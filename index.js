@@ -61,3 +61,28 @@ if (arr.length == 0) {
     alert('в массиве что-то есть')
 }
 // end task #3
+
+
+// Используя конструкцию if..else, напишите код, 
+// который будет спрашивать: „Какое «официальное» название JavaScript?“
+// Если пользователь вводит «ECMAScript», то показать: «Верно!», 
+// в противном случае – отобразить: «Не знаете? ECMAScript!»
+
+// start task #4
+
+let nameOfJs = prompt('Какое официальное название JavaScript?');
+
+if (nameOfJs == 'ECMAScript') {
+    alert('Верно!')
+} else {
+    alert('Не знаете? ECMAScript!')
+}
+// end task #4
+
+// start task #5
+let message = (login == 'сотрудник') ? 'Привет' :
+    (login == 'Директор') ? 'Здравствуйте' :
+    (login == '') ? 'Нет логина' :
+    '';
+alert(message);
+// end task #5
