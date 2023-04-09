@@ -80,9 +80,11 @@ if (nameOfJs == 'ECMAScript') {
 // end task #4
 
 // start task #5
+let login = prompt('кто вы?')
+
 let message = (login == 'сотрудник') ? 'Привет' :
     (login == 'Директор') ? 'Здравствуйте' :
     (login == '') ? 'Нет логина' :
-    '';
+    'не знаю вас';
 alert(message);
 // end task #5
